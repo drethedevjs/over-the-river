@@ -1,3 +1,4 @@
+import CommitteeView from "@/views/CommitteeView.vue";
 import EventDetailsView from "@/views/EventDetailsView.vue";
 import HomeView from "@/views/HomeView.vue";
 import LodgingView from "@/views/LodgingView.vue";
@@ -34,6 +35,11 @@ const router = createRouter({
       path: "/lodging",
       name: "lodging",
       component: LodgingView,
+    },
+    {
+      path: "/committee",
+      name: "committee",
+      component: CommitteeView,
     },
   ],
 });

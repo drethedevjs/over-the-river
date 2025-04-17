@@ -5,7 +5,7 @@ import { FwbImg } from "flowbite-vue";
 <template>
   <div class="w-full h-screen relative overflow-hidden">
     <img
-      src="/images/family-hero.jpg"
+      src="/images/black-family-hero.jpg"
       alt="a woman standing in a meeting addressing the attendees"
       class="h-full w-full object-cover"
     />
