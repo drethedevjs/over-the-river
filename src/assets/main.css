@@ -1,0 +1,26 @@
+/* import Flowbite Vue styles */
+@import "flowbite-vue/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-center text-7xl mt-10;
+}
+
+h2 {
+  @apply text-5xl mt-10 mb-3;
+}
+
+p {
+  @apply text-2xl mb-5;
+}
+
+.otr-container {
+  @apply container mx-auto px-10 my-10;
+}
+
+.handle {
+  @apply text-teal-600 hover:text-teal-900 hover:cursor-pointer;
+}
