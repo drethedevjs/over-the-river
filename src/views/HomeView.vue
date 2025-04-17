@@ -16,17 +16,17 @@ import { FwbImg } from "flowbite-vue";
     </div>
   </div>
 
-  <div id="event-overview" class="p-10 mb-10">
+  <div id="event-overview" class="px-3 md:px-10 mb-10">
     <h2 id="event-ov">Where / When</h2>
 
-    <div class="flex flex-col md:flex-row w-full gap-4">
+    <div class="flex flex-col md:place-items-stretch place-items-center md:flex-row w-full gap-4">
       <div class="block-side">
         <fwb-img
           alt="Cincinnati skyline."
           src="/images/cincinnati-skyline.jpg"
           class="object-cover h-full"
         />
-        <div class="overlay flex md:hidden"></div>
+        <div class="overlay flex"></div>
         <div class="overlay-text">
           <p class="sub-header">Location</p>
           <p class="info">Cincinnati, OH</p>
@@ -38,7 +38,7 @@ import { FwbImg } from "flowbite-vue";
           src="/images/june.jpg"
           class="hover:scale-105"
         />
-        <div class="overlay flex md:hidden"></div>
+        <div class="overlay flex"></div>
         <div class="overlay-text">
           <p class="sub-header">Dates</p>
           <p class="info">June 13th-14th</p>
@@ -50,7 +50,7 @@ import { FwbImg } from "flowbite-vue";
 
 <style scoped>
 .block-side {
-  @apply text-center w-1/2 relative overflow-hidden rounded-md;
+  @apply text-center md:w-1/2 w-full relative overflow-hidden rounded-md;
 }
 
 .overlay {
@@ -58,7 +58,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 #hero-header {
-  @apply text-9xl;
+  @apply md:text-9xl;
 }
 
 #hero-txt {
@@ -70,7 +70,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 #tagline {
-  @apply text-5xl;
+  @apply md:text-5xl text-3xl md:mt-0 mt-5;
 }
 
 .hero-text {
@@ -78,7 +78,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 #event-ov {
-  @apply text-5xl text-center mb-10 font-bold tracking-widest uppercase bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text drop-shadow-sm;
+  @apply md:text-5xl text-4xl text-center mb-10 font-bold tracking-widest uppercase bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text drop-shadow-sm;
 }
 
 .sub-header {
