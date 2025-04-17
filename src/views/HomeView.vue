@@ -17,7 +17,7 @@ import { FwbImg } from "flowbite-vue";
   </div>
 
   <div id="event-overview" class="px-3 md:px-10 mb-10">
-    <h2 id="event-ov">Where / When</h2>
+    <h2 id="event-ov" class="otr-gradient-2">Where / When</h2>
 
     <div class="flex flex-col md:place-items-stretch place-items-center md:flex-row w-full gap-4">
       <div class="block-side">
@@ -78,7 +78,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 #event-ov {
-  @apply md:text-5xl text-4xl text-center mb-10 font-bold tracking-widest uppercase bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text drop-shadow-sm;
+  @apply md:text-5xl text-4xl text-center mb-10 font-bold tracking-widest uppercase drop-shadow-sm;
 }
 
 .sub-header {

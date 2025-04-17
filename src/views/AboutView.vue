@@ -3,7 +3,7 @@ import { FwbImg } from "flowbite-vue";
 </script>
 <template>
   <div class="otr-container">
-    <h1>About</h1>
+    <h1 class="page-title">About</h1>
 
     <h2>What is "Over the River"</h2>
     <p>
