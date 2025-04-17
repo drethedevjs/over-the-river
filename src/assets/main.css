@@ -40,3 +40,9 @@ p {
 .page-title {
   @apply otr-gradient-2 font-bold;
 }
+
+@media (prefers-color-scheme: dark) {
+  .otr-gradient {
+    @apply from-primary to-secondary bg-gradient-to-r text-transparent bg-clip-text;
+  }
+}
