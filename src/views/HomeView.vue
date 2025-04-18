@@ -3,9 +3,9 @@ import { FwbImg } from "flowbite-vue";
 </script>
 
 <template>
-  <div class="w-full h-screen relative overflow-hidden">
+  <div class="w-full md:h-screen relative overflow-hidden">
     <img
-      src="/images/black-family-hero.jpg"
+      src="/images/black-family-hero-2.jpg"
       alt="a woman standing in a meeting addressing the attendees"
       class="h-full w-full object-cover"
     />
@@ -58,7 +58,11 @@ import { FwbImg } from "flowbite-vue";
 }
 
 #hero-header {
-  @apply md:text-9xl;
+  @apply lg:text-9xl text-5xl;
+}
+
+#tagline {
+  @apply md:text-5xl text-2xl md:mt-0 mt-5;
 }
 
 #hero-txt {
@@ -67,10 +71,6 @@ import { FwbImg } from "flowbite-vue";
 
 .overlay-text {
   @apply absolute inset-0 object-none place-content-center text-center text-white drop-shadow-2xl;
-}
-
-#tagline {
-  @apply md:text-5xl text-3xl md:mt-0 mt-5;
 }
 
 .hero-text {
@@ -82,10 +82,10 @@ import { FwbImg } from "flowbite-vue";
 }
 
 .sub-header {
-  @apply text-3xl mb-3 tracking-widest;
+  @apply 2xl:text-6xl xl:text-4xl md:text-3xl text-xl mb-3 tracking-widest;
 }
 
 .info {
-  @apply text-6xl tracking-widest;
+  @apply 2xl:text-8xl xl:text-6xl md:text-5xl text-5xl shrink tracking-widest;
 }
 </style>
