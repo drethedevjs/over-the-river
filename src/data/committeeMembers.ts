@@ -7,7 +7,7 @@ const committeeMembers = [
     role: "my role",
     email: "barbeet@gmail.com",
     phone: "555-555-5555",
-    facebook: "",
+    facebook: "https://www.facebook.com/teresa.barbee.77",
   },
   {
     id: 2,
