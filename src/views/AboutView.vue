@@ -15,7 +15,7 @@ import { FwbImg } from "flowbite-vue";
     <h2>Big Grannie / Little Grannie</h2>
     <fwb-img
       alt="Big Grannie and Little Grannie sitting next to each other."
-      src="/images/big-g-lil-g.jpg"
+      src="/images/big-grannie-lil-grannie.jpeg"
       caption="Big Grannie / Little Grannie"
       class="place-self-center"
     />
