@@ -63,7 +63,7 @@ const committeeMembers = [
     id: 7,
     imgSrc: "/images/committee/black-woman-placeholder.jpg",
     firstName: "Dionne",
-    lastName: "Something",
+    lastName: "",
     role: "my role",
     email: "dionne@gmail.com",
     phone: "555-555-5555",
