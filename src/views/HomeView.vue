@@ -24,7 +24,7 @@ import { FwbImg } from "flowbite-vue";
         <fwb-img
           alt="Cincinnati skyline."
           src="/images/cincinnati-skyline.jpg"
-          class="object-cover h-full"
+          class="object-cover h-full hover:scale-105 hover:rotate-2 transition-transform"
         />
         <div class="overlay flex"></div>
         <div class="overlay-text">
@@ -36,7 +36,7 @@ import { FwbImg } from "flowbite-vue";
         <fwb-img
           alt="Four square letter pieces that spell out the word June."
           src="/images/june.jpg"
-          class="hover:scale-105"
+          class="hover:scale-105 hover:-rotate-2 transition-transform"
         />
         <div class="overlay flex"></div>
         <div class="overlay-text">
@@ -54,7 +54,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 .overlay {
-  @apply absolute inset-0 bg-black opacity-25;
+  @apply absolute inset-0 bg-black opacity-25 pointer-events-none;
 }
 
 #hero-header {
@@ -70,7 +70,7 @@ import { FwbImg } from "flowbite-vue";
 }
 
 .overlay-text {
-  @apply absolute inset-0 object-none place-content-center text-center text-white drop-shadow-2xl;
+  @apply absolute inset-0 object-none place-content-center text-center text-white drop-shadow-2xl pointer-events-none;
 }
 
 .hero-text {
