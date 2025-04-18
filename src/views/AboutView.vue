@@ -17,7 +17,7 @@ import { FwbImg } from "flowbite-vue";
       alt="Big Grannie and Little Grannie sitting next to each other."
       src="/images/big-grannie-lil-grannie.jpeg"
       caption="Big Grannie / Little Grannie"
-      class="place-self-center"
+      class="place-self-center my-10"
     />
     <p>
       Enim cupidatat ea adipisicing ad Lorem non ut anim sint dolor fugiat. Aliqua culpa laborum
