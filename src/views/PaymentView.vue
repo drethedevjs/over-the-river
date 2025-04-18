@@ -10,7 +10,7 @@ import {
 </script>
 <template>
   <div class="otr-container">
-    <h1 class="mb-10">Secure Your Spot</h1>
+    <h1 class="page-title mb-10">Secure Your Spot</h1>
     <p class="text-center">
       This year's family reunion is shaping up to be something truly special—filled with laughter,
       good food, games, and unforgettable memories. To help cover the costs of food, venue,
