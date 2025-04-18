@@ -9,6 +9,12 @@ import { Mail } from "lucide-vue-next";
 <template>
   <div class="otr-container">
     <h1 class="page-title mb-10">Committee</h1>
+    <p class="text-center mb-10">
+      This event wouldn't be possible without the time, energy, and heart of our dedicated reunion
+      committee. From planning and coordination to food, logistics, and fun, this team has worked
+      behind the scenes to make our gathering unforgettable. We're proud to introduce the people
+      helping bring our family together — one call, one email, and one memory at a time.
+    </p>
     <div
       class="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-3 lg:grid-cols-3 place-items-center lg:gap-4 mb-10"
     >
