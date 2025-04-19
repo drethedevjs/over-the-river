@@ -24,7 +24,7 @@ import { FwbImg } from "flowbite-vue";
         <fwb-img
           alt="Cincinnati skyline."
           src="/images/cincinnati-skyline.jpg"
-          class="object-cover h-full hover:scale-105 hover:rotate-2 transition-transform"
+          class="object-cover md:h-full hover:scale-105 hover:rotate-2 transition-transform"
         />
         <div class="overlay flex"></div>
         <div class="overlay-text">
