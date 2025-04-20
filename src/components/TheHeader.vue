@@ -9,19 +9,19 @@ import { FwbButton, FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite
     <template #default="{ isShowMenu }">
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
         <fwb-navbar-link link="/">
-          <span class="hover:!text-red-600">Home</span>
+          <span class="header-link">Home</span>
         </fwb-navbar-link>
         <fwb-navbar-link link="/about">
-          <span class="hover:!text-red-600">About</span>
+          <span class="header-link">About</span>
         </fwb-navbar-link>
         <fwb-navbar-link link="/committee">
-          <span class="hover:!text-red-600">Committee</span>
+          <span class="header-link">Committee</span>
         </fwb-navbar-link>
         <fwb-navbar-link link="/details">
-          <span class="hover:!text-red-600">Event Details</span>
+          <span class="header-link">Event Details</span>
         </fwb-navbar-link>
         <fwb-navbar-link link="/lodging">
-          <span class="hover:!text-red-600">Lodging</span>
+          <span class="header-link">Lodging</span>
         </fwb-navbar-link>
         <!-- <fwb-navbar-link link="#"> Contact </fwb-navbar-link> -->
       </fwb-navbar-collapse>
@@ -32,4 +32,8 @@ import { FwbButton, FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite
   </fwb-navbar>
 </template>
 
-<style scoped></style>
+<style scoped>
+.header-link {
+  @apply hover:!text-red-600 dark:text-white;
+}
+</style>
