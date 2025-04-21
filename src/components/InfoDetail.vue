@@ -30,7 +30,7 @@ const props = withDefaults(
 let gradientColorClasses: string = "";
 const gradient = (colorsArr: string) => {
   const colors: string[] = colorsArr.split("|");
-  gradientColorClasses = `from-${colors[0]}-400 via-${colors[1]}-700 to-${colors[2]}-600`;
+  gradientColorClasses = `from-${colors[0]}-500 via-${colors[1]} to-${colors[2]}-500`;
 };
 
 gradient(props.headerTextColors);

@@ -7,13 +7,13 @@ export default {
   ],
   safelist: [
     {
-      pattern: /from-(yellow|green|blue|purple|pink)-(400)/,
+      pattern: /from-(yellow|green|blue|purple|pink)-(500)/,
     },
     {
-      pattern: /via-(yellow|green|blue|purple|pink)-(700)/,
+      pattern: /via-(yellow|green|blue|purple|pink)-(500)/,
     },
     {
-      pattern: /to-(yellow|green|blue|purple|pink)-(600)/,
+      pattern: /to-(yellow|green|blue|purple|pink)-(500)/,
     },
   ],
   theme: {
