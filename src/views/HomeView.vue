@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-full md:h-screen relative overflow-hidden">
+  <div class="w-full md:h-screen h-96 relative overflow-hidden">
     <img
       src="/images/black-family-hero-2.jpg"
       alt="a woman standing in a meeting addressing the attendees"
