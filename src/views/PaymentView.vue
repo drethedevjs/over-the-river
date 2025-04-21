@@ -18,7 +18,7 @@ import {
       the event amazing for everyone!
     </p>
 
-    <fwb-table class="w-1/2 place-self-center">
+    <fwb-table class="lg:w-1/2 place-self-center">
       <fwb-table-head class="text-center">
         <fwb-table-head-cell>Attendee</fwb-table-head-cell>
         <fwb-table-head-cell>Price</fwb-table-head-cell>
@@ -45,7 +45,7 @@ import {
       best for you. Whether you prefer digital options or want to pay in person, we've got you
       covered. Every contribution goes straight into making this reunion one to remember!
     </p>
-    <fwb-table class="w-3/4 place-self-center">
+    <fwb-table class="lg:w-3/4 place-self-center">
       <fwb-table-head class="text-center">
         <fwb-table-head-cell>Medium</fwb-table-head-cell>
         <fwb-table-head-cell>Location</fwb-table-head-cell>

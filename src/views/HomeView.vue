@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import DefaultBrowserWhenWhere from "@/components/DefaultBrowserWhenWhere.vue";
 import SafariWhenWhere from "@/components/SafariWhenWhere.vue";
+import { FwbButton } from "flowbite-vue";
 import { onMounted, ref } from "vue";
 const isSafari = ref(false);
 
@@ -22,6 +23,7 @@ onMounted(() => {
     <div id="hero-txt">
       <h1 id="hero-header" class="hero-text">Martin-Porterfield Reunion</h1>
       <p id="tagline" class="hero-text">Lets celebrate one another!</p>
+      <fwb-button href="/pay" class="otr-bg-gradient md:hidden"> Secure Your Spot </fwb-button>
     </div>
   </div>
 
