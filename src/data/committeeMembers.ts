@@ -12,7 +12,7 @@ const committeeMembers = [
   },
   {
     id: 2,
-    imgSrc: "/images/committee/black-woman-placeholder.jpg",
+    imgSrc: "/images/committee/n-henderson.jpeg",
     firstName: "Nicole",
     lastName: "Henderson",
     role: "Chairperson",
