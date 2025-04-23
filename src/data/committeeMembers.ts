@@ -13,7 +13,7 @@ const committeeMembers = [
   {
     id: 2,
     imgSrc: "/images/committee/n-henderson.jpeg",
-    firstName: "Nicole",
+    firstName: "Nichole",
     lastName: "Henderson",
     role: "Chairperson",
     email: "nikki@gmail.com",
