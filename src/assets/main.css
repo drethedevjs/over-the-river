@@ -10,11 +10,11 @@ h1 {
 }
 
 h2 {
-  @apply md:text-5xl sm:text-3xl text-2xl mt-10 mb-3;
+  @apply md:text-5xl sm:text-3xl text-2xl mt-10 mb-3 dark:text-white;
 }
 
 p {
-  @apply lg:text-2xl lg:mb-5 mb-3;
+  @apply lg:text-2xl lg:mb-5 mb-3 dark:text-white;
 }
 
 .otr-container {

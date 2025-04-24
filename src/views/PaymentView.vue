@@ -26,15 +26,19 @@ import {
       <fwb-table-body class="text-center">
         <fwb-table-row>
           <fwb-table-cell>Adult (18+)</fwb-table-cell>
-          <fwb-table-cell>$90 <small>per person</small></fwb-table-cell>
+          <fwb-table-cell class="dark:text-white text-black">
+            $90 <small>per person</small></fwb-table-cell
+          >
         </fwb-table-row>
         <fwb-table-row>
           <fwb-table-cell>Age 13-17</fwb-table-cell>
-          <fwb-table-cell>$25 <small>per person</small></fwb-table-cell>
+          <fwb-table-cell class="dark:text-white text-black"
+            >$25 <small>per person</small></fwb-table-cell
+          >
         </fwb-table-row>
         <fwb-table-row>
           <fwb-table-cell>Ages 12 and Under</fwb-table-cell>
-          <fwb-table-cell>FREE</fwb-table-cell>
+          <fwb-table-cell class="dark:text-white text-black">FREE</fwb-table-cell>
         </fwb-table-row>
       </fwb-table-body>
     </fwb-table>
@@ -53,7 +57,7 @@ import {
       <fwb-table-body class="text-center">
         <fwb-table-row>
           <fwb-table-cell>Zelle</fwb-table-cell>
-          <fwb-table-cell>
+          <fwb-table-cell class="dark:text-white text-black">
             Send payments to Teresa Barbee at
             <span class="handle"> barbeecc1@gmail.com </span>
             . After sending your payment, please email the same address with the names and ages of
@@ -62,7 +66,7 @@ import {
         </fwb-table-row>
         <fwb-table-row>
           <fwb-table-cell>Mail</fwb-table-cell>
-          <fwb-table-cell>
+          <fwb-table-cell class="dark:text-white text-black">
             Send cashier's check or money order to the following address:
             <br />
             <br />
@@ -79,8 +83,8 @@ import {
         </fwb-table-row>
         <fwb-table-row>
           <fwb-table-cell>Venmo</fwb-table-cell>
-          <fwb-table-cell
-            >Venmo payment to Nichole Henderson at
+          <fwb-table-cell class="dark:text-white text-black">
+            Venmo payment to Nichole Henderson at
             <span class="handle">@martinnm117</span></fwb-table-cell
           >
         </fwb-table-row>

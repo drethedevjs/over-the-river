@@ -7,7 +7,7 @@ import TheHeader from "./components/TheHeader.vue";
 <template>
   <div class="flex flex-col min-h-screen">
     <TheHeader />
-    <main class="flex-grow">
+    <main class="flex-grow dark:bg-neutral">
       <RouterView />
     </main>
     <TheFooter />
