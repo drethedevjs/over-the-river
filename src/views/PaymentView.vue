@@ -29,7 +29,7 @@ import {
           <fwb-table-cell>$90 <small>per person</small></fwb-table-cell>
         </fwb-table-row>
         <fwb-table-row>
-          <fwb-table-cell>Age 13-15</fwb-table-cell>
+          <fwb-table-cell>Age 13-17</fwb-table-cell>
           <fwb-table-cell>$25 <small>per person</small></fwb-table-cell>
         </fwb-table-row>
         <fwb-table-row>
