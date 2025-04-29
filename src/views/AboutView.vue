@@ -27,9 +27,17 @@ import { FwbImg } from "flowbite-vue";
       class="place-self-center my-10"
     />
     <p>
-      Enim cupidatat ea adipisicing ad Lorem non ut anim sint dolor fugiat. Aliqua culpa laborum
-      consequat aute anim et. Duis aliqua laborum officia velit id cupidatat velit non. Amet amet
-      tempor incididunt elit in incididunt eu laborum qui duis sint ut.
+      Our family's story is deeply rooted in the love, strength, and unwavering faith of Big Grannie
+      and Little Grannie. As the patriarch and matriarch of our family, they laid the foundation for
+      the joy, unity, and resilience that we are blessed to share today. Through their sacrifices,
+      wisdom, and endless care, they built a legacy that continues to grow with every generation.
+    </p>
+    <p>
+      Though they have both passed on, their spirit lives brightly in each of us. We honor their
+      memory with deep gratitude, knowing that the big, happy family we celebrate today is a
+      reflection of their enduring love and the example they set for us all. Their lives remind us
+      that family is not just about blood — it's about the bonds we nurture, the traditions we carry
+      forward, and the love we share across time and distance.
     </p>
   </div>
 </template>
