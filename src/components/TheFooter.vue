@@ -12,7 +12,7 @@ const currentYear = new Date().getFullYear();
       <a
         href="https://csra-web-services.vercel.app/"
         target="_blank"
-        class="text-secondary font-medium hover:text-primary"
+        class="text-neutral font-medium hover:text-white"
       >
         CSRA Web Services
       </a>
