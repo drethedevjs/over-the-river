@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-full md:h-screen h-96 relative overflow-hidden">
+  <section class="w-full md:h-screen h-96 relative overflow-hidden">
     <img
       src="/images/black-family-hero-2.jpg"
       alt="a woman standing in a meeting addressing the attendees"
@@ -25,14 +25,39 @@ onMounted(() => {
       <p id="tagline" class="hero-text">Lets celebrate one another!</p>
       <fwb-button href="/pay" class="otr-bg-gradient md:hidden"> Secure Your Spot </fwb-button>
     </div>
-  </div>
+  </section>
 
-  <div id="event-overview" class="px-3 md:px-10 mb-10">
-    <h2 id="event-ov" class="otr-gradient-2">Where / When</h2>
+  <section id="event-overview" class="px-3 md:px-10 mb-10">
+    <h2 id="event-ov" class="otr-gradient-2 section-header">Where / When</h2>
 
     <SafariWhenWhere v-if="isSafari" />
     <DefaultBrowserWhenWhere v-else />
-  </div>
+  </section>
+
+  <section id="reunion-logo" class="px-3 md:px-10 mb-10">
+    <h2 id="reunion-logo-header" class="otr-gradient-2 section-header">Reunion Logo</h2>
+
+    <p class="text-center xl:w-3/6 lg:w-4/6 md:text-2xl text-xl md:4/6 w-5/6 mx-auto">
+      The reunion logo was designed by <span class="font-bold otr-gradient-2">Sierra Evans</span>, a
+      talented graphic designer from our family. The design beautifully captures the spirit of our
+      reunion, incorporating elements that represent our family's heritage and unity. The thoughtful
+      color palette and modern design elements create a memorable symbol that will represent this
+      year's gathering.
+    </p>
+
+    <div class="flex flex-col md:flex-row w-full gap-3 mt-16">
+      <img
+        src="/images/reunion-logo/martin-porterfield-family-reunion-logo-2.jpg"
+        alt="Reunion Logo"
+        class="reunion-logo-img"
+      />
+      <img
+        src="/images/reunion-logo/martin-porterfield-family-reunion-logo-1.jpg"
+        alt="Reunion Logo"
+        class="reunion-logo-img"
+      />
+    </div>
+  </section>
 </template>
 
 <style scoped>
@@ -52,7 +77,11 @@ onMounted(() => {
   @apply text-white drop-shadow-2xl;
 }
 
-#event-ov {
+.section-header {
   @apply md:text-5xl text-4xl text-center mb-10 font-bold tracking-widest uppercase drop-shadow-sm;
+}
+
+.reunion-logo-img {
+  @apply w-full mx-auto md:w-1/2;
 }
 </style>
