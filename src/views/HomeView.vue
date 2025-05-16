@@ -45,22 +45,36 @@ onMounted(() => {
       year's gathering.
     </p>
 
-    <div class="flex flex-col md:flex-row w-full gap-3 mt-16">
-      <img
-        src="/images/reunion-logo/martin-porterfield-family-reunion-logo-2.jpg"
-        alt="Reunion Logo"
-        class="reunion-logo-img"
-      />
-      <img
-        src="/images/reunion-logo/martin-porterfield-family-reunion-logo-1.jpg"
-        alt="Reunion Logo"
-        class="reunion-logo-img"
-      />
+    <div class="flex flex-col md:flex-row gap-4 mt-16 2xl:px-96 xl:px-52 px-10">
+      <div class="flex flex-col w-full md:w-1/2 justify-center">
+        <img
+          src="/images/reunion-logo/s-evans-SQUARE.jpg"
+          alt="Head shot ofSierra Evans"
+          class="rounded-xl"
+        />
+        <p class="text-center otr-gradient-2 font-bold">Sierra Evans</p>
+      </div>
+      <div class="flex flex-col w-full md:w-1/2 gap-3">
+        <img
+          src="/images/reunion-logo/martin-porterfield-family-reunion-logo-2.jpg"
+          alt="Reunion Logo"
+          class="reunion-logo-img"
+        />
+        <img
+          src="/images/reunion-logo/martin-porterfield-family-reunion-logo-1.jpg"
+          alt="Reunion Logo"
+          class="reunion-logo-img"
+        />
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.px-200 {
+  padding-left: 30rem;
+  padding-right: 30rem;
+}
 #hero-header {
   @apply lg:text-9xl text-6xl;
 }
@@ -82,6 +96,6 @@ onMounted(() => {
 }
 
 .reunion-logo-img {
-  @apply w-full mx-auto md:w-1/2;
+  @apply rounded-xl;
 }
 </style>
