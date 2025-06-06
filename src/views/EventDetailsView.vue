@@ -31,6 +31,7 @@ const mtAiryPictures = [
       buttonGradient="purple-pink"
       buttonLink="https://www.mainevent.com/locations/ohio/west-chester/"
       date="Friday, June 13, 2025"
+      timeFrame="6:00p - 8:00p"
     >
       <template #address1>9477 Oxford Way</template>
       <template #address2>West Chester, OH 45069</template>
@@ -50,6 +51,7 @@ const mtAiryPictures = [
       buttonGradient="green-blue"
       buttonLink="https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/mt-airy-forest/"
       date="Saturday, June 14, 2025"
+      timeFrame="1:00p - 7:00p"
       :headerPullRight="true"
       :rowReverse="true"
     >

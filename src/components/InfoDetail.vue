@@ -20,6 +20,7 @@ const props = withDefaults(
     date: string;
     headerPullRight?: boolean;
     rowReverse?: boolean;
+    timeFrame: string;
   }>(),
   {
     headerPullRight: false,
@@ -43,7 +44,7 @@ const openMaps = (address: string) => {
 </script>
 <template>
   <h2 :class="props.headerPullRight ? 'text-right' : ''">{{ props.date }}</h2>
-
+  <h3 :class="props.headerPullRight ? 'text-right' : ''">{{ props.timeFrame }}</h3>
   <div
     class="flex flex-col xl:flex-row w-full md:mb-5"
     :class="props.rowReverse ? 'xl:flex-row-reverse' : 'xl:flex-row'"
@@ -83,7 +84,11 @@ const openMaps = (address: string) => {
 
 <style scoped>
 h2 {
-  @apply mb-10 md:text-6xl text-4xl font-semibold;
+  @apply mb-5 md:text-6xl text-4xl font-semibold;
+}
+
+h3 {
+  @apply mb-10 md:text-4xl text-2xl font-semibold;
 }
 
 .address {
