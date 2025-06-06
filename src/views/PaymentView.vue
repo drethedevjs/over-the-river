@@ -18,6 +18,10 @@ import {
       the event amazing for everyone!
     </p>
 
+    <p class="text-red-600 font-semibold text-center">
+      Note: T-Shirts have already been ordered. If you pay today, you will not receive one.
+    </p>
+
     <fwb-table class="lg:w-1/2 place-self-center">
       <fwb-table-head class="text-center">
         <fwb-table-head-cell>Attendee</fwb-table-head-cell>
@@ -27,13 +31,15 @@ import {
         <fwb-table-row>
           <fwb-table-cell>Adult (18+)</fwb-table-cell>
           <fwb-table-cell class="dark:text-white text-black">
-            $90 <small>per person</small></fwb-table-cell
+            <span class="text-gray-500"><s>$90</s></span> $80
+            <small>per person</small></fwb-table-cell
           >
         </fwb-table-row>
         <fwb-table-row>
           <fwb-table-cell>Age 13-17</fwb-table-cell>
-          <fwb-table-cell class="dark:text-white text-black"
-            >$25 <small>per person</small></fwb-table-cell
+          <fwb-table-cell class="dark:text-white text-black">
+            <span class="text-gray-500"><s>$25</s></span> $20
+            <small>per person</small></fwb-table-cell
           >
         </fwb-table-row>
         <fwb-table-row>
