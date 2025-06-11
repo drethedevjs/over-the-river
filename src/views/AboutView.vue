@@ -34,6 +34,12 @@ import { FwbImg } from "flowbite-vue";
     </p>
 
     <p>
+      One of her deepest commitments was to education. It was imperative to her that every one of
+      her children graduated high school — a goal she proudly accomplished through tireless effort
+      and unshakable belief in their potential.
+    </p>
+
+    <p>
       Some of her children's fondest memories are of simple joys, like days spent together at
       Fernbank Park in Cincinnati — moments filled with laughter, connection, and the kind of peace
       only a mother's presence can provide. Della taught her children to treat others the way they
@@ -44,13 +50,6 @@ import { FwbImg } from "flowbite-vue";
     <p>
       Her legacy lives on in the lives of her children, grandchildren, and great-grandchildren — a
       living testament to the love she gave and the lessons she instilled.
-    </p>
-    <p>
-      Though they have both passed on, their spirit lives brightly in each of us. We honor their
-      memory with deep gratitude, knowing that the big, happy family we celebrate today is a
-      reflection of their enduring love and the example they set for us all. Their lives remind us
-      that family is not just about blood — it's about the bonds we nurture, the traditions we carry
-      forward, and the love we share across time and distance.
     </p>
 
     <h2>Philmore Martin <span class="text-secondary">&</span> Marie (Porterfield) Martin</h2>
