@@ -19,7 +19,42 @@ import { FwbImg } from "flowbite-vue";
       the city of gathering.
     </p>
 
-    <h2>Big Grannie / Little Grannie</h2>
+    <h2>Della Porterfield</h2>
+    <fwb-img
+      alt="Place holder image for Della Porterfield."
+      src="./images/committee/black-woman-placeholder.jpg"
+      caption="Image coming soon"
+      class="place-self-center my-10"
+    />
+    <p>
+      Della Porterfield, the beloved matriarch of our family, was a woman of quiet strength and
+      remarkable determination. Born in Dry Ridge, Kentucky, she raised her seven children with
+      unwavering love, resilience, and grace — often doing it all on her own. Through hard work and
+      a heart full of compassion, she created a home rooted in kindness and mutual respect.
+    </p>
+
+    <p>
+      Some of her children's fondest memories are of simple joys, like days spent together at
+      Fernbank Park in Cincinnati — moments filled with laughter, connection, and the kind of peace
+      only a mother's presence can provide. Della taught her children to treat others the way they
+      want to be treated — a timeless lesson that continues to echo through our family's values and
+      relationships today.
+    </p>
+
+    <p>
+      Her legacy lives on in the lives of her children, grandchildren, and great-grandchildren — a
+      living testament to the love she gave and the lessons she instilled.
+    </p>
+    <p>
+      Though they have both passed on, their spirit lives brightly in each of us. We honor their
+      memory with deep gratitude, knowing that the big, happy family we celebrate today is a
+      reflection of their enduring love and the example they set for us all. Their lives remind us
+      that family is not just about blood — it's about the bonds we nurture, the traditions we carry
+      forward, and the love we share across time and distance.
+    </p>
+
+    <h2>Philmore Martin <span class="text-secondary">&</span> Marie (Porterfield) Martin</h2>
+    <small>Big Grannie / Little Grannie</small>
     <fwb-img
       alt="Big Grannie and Little Grannie sitting next to each other."
       src="/images/big-grannie-lil-grannie.jpeg"
@@ -27,10 +62,11 @@ import { FwbImg } from "flowbite-vue";
       class="place-self-center my-10"
     />
     <p>
-      Our family's story is deeply rooted in the love, strength, and unwavering faith of Big Grannie
-      and Little Grannie. As the patriarch and matriarch of our family, they laid the foundation for
-      the joy, unity, and resilience that we are blessed to share today. Through their sacrifices,
-      wisdom, and endless care, they built a legacy that continues to grow with every generation.
+      The Martin's story is deeply rooted in the love, strength, and unwavering faith of Big Grannie
+      (Philmore Martin) and Little Grannie (Marie Porterfield). As the patriarch and matriarch of
+      our family, they laid the foundation for the joy, unity, and resilience that we are blessed to
+      share today. Through their sacrifices, wisdom, and endless care, they built a legacy that
+      continues to grow with every generation.
     </p>
     <p>
       Though they have both passed on, their spirit lives brightly in each of us. We honor their
