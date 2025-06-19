@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-center text-7xl mt-10;
+  @apply text-center md:text-7xl mt-10 text-6xl;
 }
 
 h2 {

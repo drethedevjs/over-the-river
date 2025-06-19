@@ -1,8 +1,8 @@
 import CommitteeView from "@/views/CommitteeView.vue";
-import EventDetailsView from "@/views/EventDetailsView.vue";
 import HomeView from "@/views/HomeView.vue";
 import LodgingView from "@/views/LodgingView.vue";
 import PaymentView from "@/views/PaymentView.vue";
+import PostEventView from "@/views/PostEventView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -21,11 +21,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
     },
-    {
-      path: "/details",
-      name: "event-details",
-      component: EventDetailsView,
-    },
+    // {
+    //   path: "/details",
+    //   name: "event-details",
+    //   component: EventDetailsView,
+    // },
     {
       path: "/pay",
       name: "pay",
@@ -40,6 +40,11 @@ const router = createRouter({
       path: "/committee",
       name: "committee",
       component: CommitteeView,
+    },
+    {
+      path: "/post",
+      name: "post-event",
+      component: PostEventView,
     },
   ],
 });
